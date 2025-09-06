@@ -19,8 +19,7 @@ from isaaclab.utils.assets import ISAACLAB_NUCLEUS_DIR
 
 G1_HANDS_CFG = ArticulationCfg(
     spawn=sim_utils.UsdFileCfg(
-        # usd_path=f"/home/konu/Documents/upwork/humanoid_imitation_metasoul/HOVER/neural_wbc/isaac_lab_wrapper/neural_wbc/isaac_lab_wrapper/isaaclab_asset/g1_hands/g1_hands.usd",
-        usd_path=f"/home/konu/Documents/upwork/humanoid_imitation_metasoul/HOVER/neural_wbc/isaac_lab_wrapper/neural_wbc/isaac_lab_wrapper/isaaclab_asset/g1_29dof_rev_1_0_with_inspire_hand_DFQ.usd",
+        usd_path=f"/home/konu/Documents/robots_usd/unitree/g1/g1_hands/g1_hands.usd",
         activate_contact_sensors=True,
         rigid_props=sim_utils.RigidBodyPropertiesCfg(
             disable_gravity=False,
@@ -83,7 +82,6 @@ G1_HANDS_CFG = ArticulationCfg(
                 ".*_shoulder_roll_joint",
                 ".*_shoulder_yaw_joint",
                 ".*_elbow_joint",
-                ".*_elbow_roll_joint",
                 ".*_wrist_pitch_joint",
                 ".*_wrist_roll_joint",
                 ".*_wrist_yaw_joint",
