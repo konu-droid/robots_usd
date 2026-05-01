@@ -5026,12 +5026,14 @@
     <parent link="head_5mm_ujoint_base__5__1"/>
     <child link="head_u_joint_center__6__1"/>
     <axis xyz="-0.845262 0.0 -0.534352"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Revolute_27" type="continuous">
     <origin rpy="0 0 0" xyz="-0.000384 -0.003507 -0.008749"/>
     <parent link="head_u_joint_center__6__1"/>
     <child link="head_8mm_ujoint_base__1__1"/>
     <axis xyz="0.480273 -0.438371 -0.759716"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Rigid_29" type="fixed">
     <origin rpy="0 0 0" xyz="-0.000288 0.01878 -0.000488"/>
@@ -5066,6 +5068,7 @@
     <parent link="head_8mm_ujoint_base__8__1"/>
     <child link="head_u_joint_center__8__1"/>
     <axis xyz="-0.942857 0.289971 0.164128"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Rigid_35" type="fixed">
     <origin rpy="0 0 0" xyz="-0.003344 0.001445 0.008702"/>
@@ -5084,12 +5087,14 @@
     <parent link="head_5mm_ujoint_base__2__1"/>
     <child link="head_u_joint_center__1__1"/>
     <axis xyz="-0.985983 0.0 -0.166846"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Revolute_38" type="continuous">
     <origin rpy="0 0 0" xyz="-0.006176 0.002867 0.00653"/>
     <parent link="head_u_joint_center__1__1"/>
     <child link="head_8mm_ujoint_base__4__1"/>
     <axis xyz="-0.155764 0.358368 0.920494"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Rigid_39" type="fixed">
     <origin rpy="0 0 0" xyz="-0.002311 0.012412 -0.013915"/>
@@ -5124,12 +5129,14 @@
     <parent link="head_8mm_ujoint_base__7__1"/>
     <child link="head_u_joint_center__11__1"/>
     <axis xyz="-0.000586 -0.394148 -0.919047"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Revolute_45" type="continuous">
     <origin rpy="0 0 0" xyz="0.007997 -0.001975 -0.004598"/>
     <parent link="head_u_joint_center__11__1"/>
     <child link="head_10mm_ujoint_base__4__1"/>
     <axis xyz="1.0 -0.000581 -0.000388"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Platform_Base_Joint3" type="revolute">
     <origin rpy="0 0 0" xyz="-0.021174 0.024 -0.005674"/>
@@ -5143,12 +5150,14 @@
     <parent link="head_5mm_ujoint_base__1__1"/>
     <child link="head_u_joint_center__3__1"/>
     <axis xyz="-0.995725 0.0 0.092371"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Revolute_48" type="continuous">
     <origin rpy="0 0 0" xyz="-0.005667 0.002919 -0.006954"/>
     <parent link="head_u_joint_center__3__1"/>
     <child link="head_8mm_ujoint_base__5__1"/>
     <axis xyz="-0.086002 0.364877 -0.927075"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Rigid_49" type="fixed">
     <origin rpy="0 0 0" xyz="-0.003197 0.012355 0.013788"/>
@@ -5183,12 +5192,14 @@
     <parent link="head_8mm_ujoint_base__9__1"/>
     <child link="head_u_joint_center__7__1"/>
     <axis xyz="-0.232746 -0.424277 0.87511"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Revolute_55" type="continuous">
     <origin rpy="0 0 0" xyz="0.006568 -0.002127 0.006429"/>
     <parent link="head_u_joint_center__7__1"/>
     <child link="head_10mm_ujoint_base__2__1"/>
     <axis xyz="0.966493 -0.000738 0.256693"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Platform_Base_Joint4" type="revolute">
     <origin rpy="0 0 0" xyz="-0.005674 0.024 0.021173"/>
@@ -5202,12 +5213,14 @@
     <parent link="head_5mm_ujoint_base_1"/>
     <child link="head_u_joint_center__2__1"/>
     <axis xyz="0.368125 -0.0 0.929776"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Revolute_58" type="continuous">
     <origin rpy="0 0 0" xyz="0.008598 0.003343 0.001973"/>
     <parent link="head_u_joint_center__2__1"/>
     <child link="head_8mm_ujoint_base__6__1"/>
     <axis xyz="0.84471 0.417867 -0.334444"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Rigid_59" type="fixed">
     <origin rpy="0 0 0" xyz="-0.014233 0.011924 0.00287"/>
@@ -5242,12 +5255,14 @@
     <parent link="head_8mm_ujoint_base__10__1"/>
     <child link="head_u_joint_center__9__1"/>
     <axis xyz="0.474078 0.221298 0.852219"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Revolute_65" type="continuous">
     <origin rpy="0 0 0" xyz="0.009361 0.001113 0.000371"/>
     <parent link="head_u_joint_center__9__1"/>
     <child link="head_10mm_ujoint_base__1__1"/>
     <axis xyz="0.873803 0.000747 -0.486279"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Platform_Base_Joint5" type="revolute">
     <origin rpy="0 0 0" xyz="0.005673 0.024 0.021173"/>
@@ -5261,12 +5276,14 @@
     <parent link="head_5mm_ujoint_base__3__1"/>
     <child link="head_u_joint_center__4__1"/>
     <axis xyz="0.871168 -0.0 -0.490985"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Revolute_68" type="continuous">
     <origin rpy="0 0 0" xyz="0.000547 0.001949 -0.009214"/>
     <parent link="head_u_joint_center__4__1"/>
     <child link="head_8mm_ujoint_base__3__1"/>
     <axis xyz="-0.476193 0.243615 -0.844921"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Rigid_69" type="fixed">
     <origin rpy="0 0 0" xyz="0.011265 0.013327 0.006962"/>
@@ -5301,12 +5318,14 @@
     <parent link="head_8mm_ujoint_base_1"/>
     <child link="head_u_joint_center_1"/>
     <axis xyz="-0.530813 0.248324 0.810292"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Revolute_75" type="continuous">
     <origin rpy="0 0 0" xyz="-0.009346 0.001245 -0.000333"/>
     <parent link="head_u_joint_center_1"/>
     <child link="head_10mm_ujoint_base_1"/>
     <axis xyz="-0.836433 0.000427 -0.548069"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Platform_Base_Joint6" type="revolute">
     <origin rpy="0 0 0" xyz="0.021173 0.024 -0.005674"/>
@@ -5320,12 +5339,14 @@
     <parent link="head_5mm_ujoint_base__4__1"/>
     <child link="head_u_joint_center__5__1"/>
     <axis xyz="0.997055 -0.0 0.076689"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Revolute_78" type="continuous">
     <origin rpy="0 0 0" xyz="0.005556 0.002945 -0.007033"/>
     <parent link="head_u_joint_center__5__1"/>
     <child link="head_8mm_ujoint_base__2__1"/>
     <axis xyz="0.071303 0.368125 -0.927038"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Rigid_79" type="fixed">
     <origin rpy="0 0 0" xyz="0.003324 0.01233 0.013781"/>
@@ -5360,12 +5381,14 @@
     <parent link="head_8mm_ujoint_base__11__1"/>
     <child link="head_u_joint_center__10__1"/>
     <axis xyz="0.312074 -0.432141 0.846087"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Revolute_85" type="continuous">
     <origin rpy="0 0 0" xyz="-0.005946 -0.002161 0.006999"/>
     <parent link="head_u_joint_center__10__1"/>
     <child link="head_10mm_ujoint_base__5__1"/>
     <axis xyz="-0.938222 -4.2e-05 0.346035"/>
+    <limit effort="1.0" velocity="10.0" />
   </joint>
   <joint name="head_Rigid_86" type="fixed">
     <origin rpy="0 0 0" xyz="-0.001382 0.017005 -0.007868"/>
@@ -13965,7 +13988,7 @@
       <child>RL_skateboard_bearing__11__1</child>
     </joint>
     <joint name="RL_Rigid47gz" type="fixed">
-      <pose relative_to="RL_skateboard_bearing__13__1">0.1 0.04774 0.0 0 0 0 0 0 0</pose>
+      <pose relative_to="RL_skateboard_bearing__13__1">0.1 0.04774 0.0 0 0 0</pose>
       <parent>RL_conjstraint_knee_test_oute_1</parent>
       <child>RL_skateboard_bearing__10__1</child>
     </joint>
@@ -16910,7 +16933,7 @@
       <child>LL_skateboard_bearing__11__1</child>
     </joint>
     <joint name="LL_Rigid47gz" type="fixed">
-      <pose relative_to="LL_skateboard_bearing__13__1">0.1 0.04774 -0.0 0 0 0 0 0 0</pose>
+      <pose relative_to="LL_skateboard_bearing__13__1">0.1 0.04774 -0.0 0 0 0</pose>
       <parent>LL_conjstraint_knee_test_oute_1</parent>
       <child>LL_skateboard_bearing__10__1</child>
     </joint>
@@ -18012,3 +18035,4 @@
     <child link="esp1_1"/>
   </joint>
 </robot>
+
